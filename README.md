@@ -1,40 +1,36 @@
-# house_price_prediction
 
-Objective:
-The goal of this project is to build a machine learning model that predicts house prices based on various features such as area, number of rooms, and property attributes.
 
-Dataset:
-Source: Kaggle House Prices Dataset
-Contains features like:
-Area / size of house
-Number of bedrooms and bathrooms
-Neighborhood / location
-Other housing attributes
+# House Price Prediction (Machine Learning Project)
 
-Workflow:
+## Overview
 
-Data Cleaning:
-Handled missing values
-Removed highly missing columns
+This project aims to predict house prices using machine learning techniques based on various property features.
 
-Feature Engineering:
-Converted categorical variables using encoding
-Prepared dataset for machine learning models
 
-Model Building:
-Linear Regression (baseline model)
-Random Forest Regressor (final model)
+## What I Did
 
-Model Evaluation:
-Mean Squared Error (MSE)
-R² Score
+* Cleaned and preprocessed the housing dataset
+* Handled missing values
+* Performed feature engineering by encoding categorical variables
+* Trained multiple models including Linear Regression and Random Forest Regressor
 
-Results:
-Linear Regression R² Score: ~0.64
-Random Forest R² Score: ~0.88
+## Results
 
-Tools & Technologies:
-Python
-Pandas, NumPy
-Scikit-learn
-Matplotlib, Seaborn
+* Linear Regression R² Score: ~0.64
+* Random Forest R² Score: ~0.88
+  
+## Tools Used
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+
+## Outcome
+
+Built a regression model capable of predicting house prices with good accuracy and gained practical experience in the end-to-end machine learning workflow.
+
+## Note
+
+This project focuses on model building and evaluation. Deployment is currently in progress.
+
+
